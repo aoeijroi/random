@@ -576,7 +576,7 @@ pause >nul
 goto mini_games
 
 :: ---------------------------
-:: forbidden zone (expanded)
+:: forbidden zone
 :: ---------------------------
 :forbidden_zone
 cls
@@ -869,3 +869,4 @@ set /p exit_choice=
 if /i "%exit_choice%"=="y" exit
 if /i "%exit_choice%"=="n" goto menu
 goto exit_script
+
